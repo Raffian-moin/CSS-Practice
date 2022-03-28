@@ -1,0 +1,24 @@
+/* 
+
+specificity ranking:
+
+inline styling - 1000
+id selector - 100
+class selector - 10
+element selector -1  
+! important - overrides all other rules
+
+*/
+
+
+h2 {
+    color: blue;
+}
+
+.greet {
+    color: red;
+}
+
+#greet {
+    color: green;
+}
