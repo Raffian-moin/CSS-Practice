@@ -1,0 +1,29 @@
+/* element selector */
+
+h1 {
+    color: rgb(4, 90, 90);
+}
+
+/* class selector */
+
+.title {
+    color: brown;
+}
+
+/* id selector */
+
+#sub-title {
+    color: slateblue;
+}
+
+/* universal selector */
+
+* {
+    text-transform: capitalize;
+}
+
+/* group selector */
+/* multiple element with same styling */
+.title, #sub-title {
+    font-style: italic;
+}
