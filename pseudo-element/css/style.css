@@ -1,0 +1,14 @@
+/* before and after selector's data is inserted inside the selected element */
+
+p::before {
+    content: "What's your name? ";
+}
+
+p::after {
+    content: " Moin";
+}
+
+p::selection {
+    color: red;
+    background: rgb(59, 235, 205);
+}
