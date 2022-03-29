@@ -1,0 +1,19 @@
+/* a pseudo-class is basically a phantom state or
+specific characteristic of an element that can be targeted with CSS */
+
+a:hover {
+    color: chartreuse;
+}
+
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: red;
+}
+
+#checkbox1:checked {
+     height: 50px;
+     width: 50px;
+}
