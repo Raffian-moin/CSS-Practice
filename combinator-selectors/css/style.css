@@ -1,0 +1,24 @@
+/* descendant selector */
+/* selects all the the descendant like child,grandchild, ... etc */
+div p {
+    color: royalblue;
+}
+
+/* child selector */
+/* selects only direct child */
+div > p {
+    color: chartreuse;
+}
+
+/* adjacent sibling selector */
+/* only an element directly followed by another is selected */
+p + h1 {
+    color: burlywood;
+}
+
+/* general sibling selector */
+/* The general sibling selector selects all elements 
+that are next siblings of a specified element. */
+div ~ p {
+    color: rgb(46, 118, 160);
+}
