@@ -1,0 +1,30 @@
+.item {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.item-2 {
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.container-item-1 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 50%;
+}

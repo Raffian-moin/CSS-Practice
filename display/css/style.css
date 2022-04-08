@@ -60,7 +60,7 @@
 }
 
 .span-1 {
-    display: block;
+    display: inline-block;
     height: 50px;
     width: 50px;
     background-color: azure;
