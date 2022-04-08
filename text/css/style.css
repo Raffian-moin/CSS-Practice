@@ -1,0 +1,12 @@
+.item {
+    height: 100px;
+    width: 400px;
+    border: 5px solid salmon;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-indent: 20px;
+    color:green;
+    background-color: bisque;
+}
