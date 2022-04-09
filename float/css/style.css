@@ -1,0 +1,33 @@
+.container {
+    background-color: antiquewhite;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.item {
+    background-color: aquamarine;
+    height: 100px;
+    width: 45%;
+    margin: 10px;
+}
+
+.item-1 {
+    float: left;
+}
+
+.item-2 {
+    float: left;
+}
+
+/* clear property is used in an element that will not be affcted by float of another element
+meaning that clear will move down the element */
+
+.item-3 {
+    clear: both;
+}
+
+img {
+    border: 2px solid burlywood;
+    float: left;
+}
