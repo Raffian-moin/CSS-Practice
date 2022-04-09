@@ -1,0 +1,10 @@
+:root {
+  --blue: #10737a;
+  --skyblue: #42e9f5;
+}
+
+.container {
+    /* overriding global variable */
+    --blue: #10307a;
+    background-color: var(--blue);
+}
